@@ -4,8 +4,8 @@
 # description:   This script is meant for monitoring Linux-Computers.
 # author:        Michael Muyakwa - IT8g
 # created:       2019-11-02
-# updated:       2019-11-07
-# version:       1.0
+# updated:       2019-11-21
+# version:       1.4
 # license:       MIT
 
 # Imports der verwendeten Bibliotheken.
@@ -47,6 +47,12 @@ def writeLog(logStr):
     f.write('\n')  # Setze eine leere neue Zeile am Ende der Log-Datei.
     f.close()  # Gebe Zugriff auf das Log-File wieder frei.
 
+# Funktion um sowohl ins Log, wie auch als Ausgabe zu schreiben.
+def splitPL(termStr):
+    print(termStr)
+    termStr = str(log_str + '\n' + termStr)
+    writeLog(termStr)
+
 # Funktion für Linux-Clients.
 def mon_linux():
     print("This is a Linux-Environment.")
@@ -63,28 +69,42 @@ def mon_linux():
     disk_str = {"Used": ((ds.f_blocks - ds.f_bfree) * ds.f_frsize) / 10 ** 9,
                 "Unused": (ds.f_bavail * ds.f_frsize) / 10 ** 9}
 
-    print('CPU: %s' % cpu_p)
-    print('Es laufen %s Prozesse' % num_processes)
-    print('%s Ram' % v_memory)
-    print(hdd_p)
-    print(disk_str)
+    Ausgabe = ('CPU: %s' % cpu_p)
+    Ausgabe += (' - Es laufen %s Prozesse' % num_processes)
+    Ausgabe += ('\n%s Ram' % v_memory)
+    Ausgabe += ('\n%s' % hdd_p)
+    Ausgabe += (' - %s' % disk_str)
     mem_p = (used_m / tot_m * 100)
-    print('Total Mem:%s Used Mem:%s Free Mem:%s - %.2f Prozent in Benutzung.' % (tot_m, used_m, free_m, mem_p))
-    writeLog(log_str)
+
+    values=psutil.virtual_memory()
+    total_size = get_human_readable_size(values.total)
+    Ausgabe += (' - Virtual Memory: %s' % (total_size))
+
+    Ausgabe += (' - Total Mem:%s Used Mem:%s Free Mem:%s - %.2f Prozent in Benutzung.' % (tot_m, used_m, free_m, mem_p))
+    splitPL(Ausgabe)
+    checkAlarm(cpu_p, hdd_p, mem_p)
 
 # Funktion zum prüfen ob Schwellwerte überschritten wurden.
 def checkAlarm(cpu_p, hdd_p, mem_p):
-    if (cpu_p > config['SCHWELLENWERTE']['CPU_P']) or (hdd_p > config['SCHWELLENWERTE']['HDD_P']) or (mem_p > config['SCHWELLENWERTE']['MEM_P']):
+    cpu_p = float(cpu_p)
+    hdd_p = float(hdd_p)
+    mem_p = float(hdd_p)
+    if (cpu_p > (float(config['SCHWELLENWERTE']['CPU_P']))) or (hdd_p > (float(config['SCHWELLENWERTE']['HDD_P']))) or (mem_p > (float(config['SCHWELLENWERTE']['MEM_P']))):
         alarm = True
+    # Prüfe ob ein Schwellwert überschritten wurde. Falls ja alamiere via Email.
+    if alarm:
+        writeLog('Alarm! Ein Schwellwert wurde überschritten.')
+        runAlarm(cpu_p, hdd_p, mem_p); 
 
 # Funktion zum alamieren, wenn ein Schwellwert überschritten wurde.
-def runAlarm():
+def runAlarm(cpu_p, hdd_p, mem_p):
     mail_host = config['EMAIL']['Smtp']
     mail_user = config['EMAIL']['Username']
     mail_pass = config['EMAIL']['Password']
     sender = config['EMAIL']['Absender']
     receivers = config['EMAIL']['Empfaenfger']
-    message = MIMEText('Es wurde ein Alarm ausgelöst.', 'plain', 'utf-8')
+    daten = 'Es wurde ein Alarm ausgelöst. \nCPU: %s, HDD: %s, Mem: %s' % (cpu_p, hdd_p, mem_p)
+    message = MIMEText(daten, 'plain', 'utf-8')
     message['From'] = Header(sender, 'utf-8')
     message['To'] = Header(receivers, 'utf-8')
     message['Subject'] = Header('Es wurde ein Alarm ausgelöst.', 'utf-8')
@@ -114,6 +134,17 @@ def runAlarm():
     finally:
         smtp_obj.quit()
 
+# Wandelt Werte aus PSUtils in brauchbare (gerundete) Größen um.
+def get_human_readable_size(num):
+    # Die verschiedenen Größenangaben in einer Variable.
+    exp_str = [ (0, 'B'), (10, 'KB'),(20, 'MB'),(30, 'GB'),(40, 'TB'), (50, 'PB'),]               
+    i = 0
+    #While-Schleife prüft ob die nächst große Größenangabe sinnvoller ist.
+    while i+1 < len(exp_str) and num >= (2 ** exp_str[i+1][0]):
+        i += 1
+        rounded_val = round(float(num) / 2 ** exp_str[i][0], 2)
+    return '%s %s' % (int(rounded_val), exp_str[i][1])
+
 # Hauptfunktion.
 def main():
     # Prüfe das Betriebsystem. (Lin/Win)
@@ -134,9 +165,7 @@ def main():
         print("You are not running this Script on a Linux-Environment.")
         writeLog('This System is not a Linux-System.')
         sys.exit(1)
-    # Prüfe ob ein Schwellwert überschritten wurde. Falls ja alamiere via Email.
-    if alarm:
-        runAlarm(); writeLog('Alarm! Ein Schwellwert wurde überschritten.')
+    
 
 
 # Ab hier startet der Lauf des Skript

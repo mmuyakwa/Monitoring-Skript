@@ -1,46 +1,120 @@
-2019-11-03 01:23:57
-2019-11-03 01:33:08
-2019-11-03 01:37:01
-2019-11-03 14:10:48
-2019-11-07 12:08:15
-2019-11-07 12:12:41
-2019-11-07 12:19:52
-2019-11-07 12:31:55
-2019-11-07 12:31:59
-DevMachine: 2019-11-07 14:57:26
-DevMachine: 2019-11-07 15:04:03
-DevMachine: 2019-11-07 15:04:42
-DevMachine: 2019-11-07 15:06:39
-DevMachine: 2019-11-07 15:06:55
-DevMachine: 2019-11-07 15:28:29
-DevMachine: 2019-11-07 15:31:56
-DevMachine: 2019-11-07 15:33:04
-DevMachine: 2019-11-07 15:37:50
-DevMachine: 2019-11-07 15:40:40
-DevMachine: 2019-11-07 15:41:48
-DevMachine: 2019-11-07 15:44:43
-DevMachine: 2019-11-07 15:45:15
-DevMachine: 2019-11-07 15:45:45
-DevMachine: 2019-11-07 15:47:58
-DevMachine: 2019-11-07 15:50:19
-DevMachine: 2019-11-07 15:52:17
-DevMachine: 2019-11-07 15:52:56
-DevMachine: 2019-11-07 16:26:34
-DevMachine: 2019-11-07 16:28:42
-DevMachine: 2019-11-07 16:32:16
-DevMachine: 2019-11-07 16:36:21
-DevMachine: 2019-11-07 16:38:58
-DevMachine: 2019-11-07 16:42:06
-DevMachine: 2019-11-07 17:48:03
-DevMachine: 2019-11-07 17:49:45
-DevMachine: 2019-11-07 17:50:44
-DevMachine: 2019-11-07 18:42:30
-DevMachine: 2019-11-07 18:56:30
-DevMachine: 2019-11-07 19:12:13
-DevMachine: 2019-11-07 19:13:48
-DevMachine: 2019-11-07 19:14:15
-DevMachine: 2019-11-07 19:18:40
-DevMachine: 2019-11-07 19:21:11
+DevMachine: 2019-11-21 11:46:03
+CPU: 53.62 - Es laufen [psutil.Process(pid=3792, name='sh', started='11:46:02')] Prozesse
+66.5 Ram
+94.3 - {'Used': 103.678779392, 'Unused': 6.233419776} - Total Mem:8820 Used Mem:5310 Free Mem:559 - 60.20 Prozent in Benutzung.
+DevMachine: 2019-11-21 12:18:09
+CPU: 53.7 - Es laufen [psutil.Process(pid=19809, name='sh', started='12:18:08')] Prozesse
+66.1 Ram
+94.4 - {'Used': 103.708983296, 'Unused': 6.203215872} - Total Mem:8820 Used Mem:5281 Free Mem:463 - 59.88 Prozent in Benutzung.
+DevMachine: 2019-11-21 12:34:20
+CPU: 53.08 - Es laufen [psutil.Process(pid=20919, name='sh', started='12:34:19')] Prozesse
+68.7 Ram
+94.4 - {'Used': 103.70295808, 'Unused': 6.209241088} - Total Mem:8820 Used Mem:5466 Free Mem:622 - 61.97 Prozent in Benutzung.
+DevMachine: 2019-11-21 12:36:06
+CPU: 53.02 - Es laufen [psutil.Process(pid=21028, name='sh', started='12:36:05')] Prozesse
+68.3 Ram
+94.4 - {'Used': 103.703199744, 'Unused': 6.208999424} - Total Mem:8820 Used Mem:5434 Free Mem:655 - 61.61 Prozent in Benutzung.
+DevMachine: 2019-11-21 12:36:38
+CPU: 53.0 - Es laufen [psutil.Process(pid=21088, name='sh', started='12:36:37')] Prozesse
+68.1 Ram
+94.4 - {'Used': 103.70617344, 'Unused': 6.206025728} - Total Mem:8820 Used Mem:5419 Free Mem:667 - 61.44 Prozent in Benutzung.
+DevMachine: 2019-11-21 12:38:55
+CPU: 52.91 - Es laufen [psutil.Process(pid=21252, name='sh', started='12:38:54')] Prozesse
+68.4 Ram
+94.4 - {'Used': 103.707815936, 'Unused': 6.204383232} - Total Mem:8820 Used Mem:5405 Free Mem:630 - 61.28 Prozent in Benutzung.
+DevMachine: 2019-11-21 12:42:12
+CPU: 52.79 - Es laufen [psutil.Process(pid=21513, name='sh', started='12:42:11')] Prozesse
+69.0 Ram
+94.4 - {'Used': 103.704899584, 'Unused': 6.207299584} - Total Mem:8820 Used Mem:5457 Free Mem:585 - 61.87 Prozent in Benutzung.
+DevMachine: 2019-11-21 12:42:54
+CPU: 52.77 - Es laufen [psutil.Process(pid=21586, name='sh', started='12:42:53')] Prozesse
+68.7 Ram
+94.4 - {'Used': 103.70613248, 'Unused': 6.206066688} - Total Mem:8820 Used Mem:5438 Free Mem:607 - 61.66 Prozent in Benutzung.
+DevMachine: 2019-11-21 12:43:12
+CPU: 52.76 - Es laufen [psutil.Process(pid=21657, name='sh', started='12:43:11')] Prozesse
+68.4 Ram
+94.4 - {'Used': 103.705071616, 'Unused': 6.207127552} - Total Mem:8820 Used Mem:5409 Free Mem:630 - 61.33 Prozent in Benutzung.
+DevMachine: 2019-11-21 12:45:19
+CPU: 52.68 - Es laufen [psutil.Process(pid=21773, name='sh', started='12:45:18')] Prozesse
+68.2 Ram
+94.4 - {'Used': 103.703977984, 'Unused': 6.208221184} - Total Mem:8820 Used Mem:5400 Free Mem:649 - 61.22 Prozent in Benutzung.
+DevMachine: 2019-11-21 12:53:14
+CPU: 52.38 - Es laufen [psutil.Process(pid=22141, name='sh', started='12:53:14')] Prozesse
+68.6 Ram
+94.3 - {'Used': 103.699996672, 'Unused': 6.212202496} - Total Mem:8820 Used Mem:5430 Free Mem:618 - 61.56 Prozent in Benutzung.
+DevMachine: 2019-11-21 12:54:27
+CPU: 52.34 - Es laufen [psutil.Process(pid=22220, name='sh', started='12:54:27')] Prozesse
+68.4 Ram
+94.3 - {'Used': 103.699079168, 'Unused': 6.21312} - Total Mem:8820 Used Mem:5417 Free Mem:631 - 61.42 Prozent in Benutzung.
+DevMachine: 2019-11-21 12:54:56
+CPU: 52.32 - Es laufen [psutil.Process(pid=22283, name='sh', started='12:54:56')] Prozesse
+68.7 Ram
+94.3 - {'Used': 103.700058112, 'Unused': 6.212141056} - Total Mem:8820 Used Mem:5433 Free Mem:609 - 61.60 Prozent in Benutzung.
+DevMachine: 2019-11-21 12:56:12
+CPU: 52.27 - Es laufen [psutil.Process(pid=22369, name='sh', started='12:56:12'), psutil.Process(pid=22372, name='sh', started='12:56:12')] Prozesse
+68.4 Ram
+94.3 - {'Used': 103.69918976, 'Unused': 6.213009408} - Total Mem:8820 Used Mem:5419 Free Mem:629 - 61.44 Prozent in Benutzung.
+DevMachine: 2019-11-21 12:57:00
+CPU: 52.24 - Es laufen [psutil.Process(pid=22441, name='sh', started='12:57:00')] Prozesse
+68.7 Ram
+94.3 - {'Used': 103.7010944, 'Unused': 6.211104768} - Total Mem:8820 Used Mem:5442 Free Mem:602 - 61.70 Prozent in Benutzung.
+DevMachine: 2019-11-21 12:57:30
+CPU: 52.23 - Es laufen [psutil.Process(pid=22531, name='sh', started='12:57:29')] Prozesse
+68.7 Ram
+94.3 - {'Used': 103.701991424, 'Unused': 6.210207744} - Total Mem:8820 Used Mem:5435 Free Mem:604 - 61.62 Prozent in Benutzung.
+DevMachine: 2019-11-21 13:00:01
+CPU: 52.13 - Es laufen [psutil.Process(pid=22651, name='sh', started='13:00:00')] Prozesse
+68.8 Ram
+94.3 - {'Used': 103.700430848, 'Unused': 6.21176832} - Total Mem:8820 Used Mem:5446 Free Mem:597 - 61.75 Prozent in Benutzung.
+DevMachine: 2019-11-21 13:02:15
+CPU: 52.05 - Es laufen [psutil.Process(pid=22779, name='sh', started='13:02:15')] Prozesse
+69.1 Ram
+94.4 - {'Used': 103.703420928, 'Unused': 6.20877824} - Total Mem:8820 Used Mem:5466 Free Mem:571 - 61.97 Prozent in Benutzung.
+DevMachine: 2019-11-21 13:02:26
+CPU: 52.04 - Es laufen [psutil.Process(pid=22827, name='sh', started='13:02:26')] Prozesse
+68.8 Ram
+94.4 - {'Used': 103.705370624, 'Unused': 6.206828544} - Total Mem:8820 Used Mem:5449 Free Mem:589 - 61.78 Prozent in Benutzung.
+DevMachine: 2019-11-21 13:04:03
+CPU: 51.98 - Es laufen [psutil.Process(pid=22936, name='sh', started='13:04:03')] Prozesse
+68.5 Ram
+94.4 - {'Used': 103.705464832, 'Unused': 6.206734336} - Total Mem:8820 Used Mem:5422 Free Mem:612 - 61.47 Prozent in Benutzung.
+DevMachine: 2019-11-21 13:14:39
+CPU: 51.53 - Es laufen [psutil.Process(pid=23576, name='sh', started='13:14:39')] Prozesse
+68.6 Ram
+94.3 - {'Used': 103.700099072, 'Unused': 6.212100096} - Total Mem:8820 Used Mem:5442 Free Mem:590 - 61.70 Prozent in Benutzung.
+DevMachine: 2019-11-21 13:16:08
+CPU: 51.48 - Es laufen [psutil.Process(pid=23685, name='sh', started='13:16:08')] Prozesse
+68.6 Ram
+94.4 - {'Used': 103.705112576, 'Unused': 6.207086592} - Total Mem:8820 Used Mem:5447 Free Mem:583 - 61.76 Prozent in Benutzung.
 Alarm-Email wurde verschickt.
-DevMachine: 2019-11-07 19:28:48
+Alarm! Ein Schwellwert wurde überschritten.
+DevMachine: 2019-11-21 13:28:14
+CPU: 51.08 - Es laufen [psutil.Process(pid=24364, name='sh', started='13:28:14')] Prozesse
+68.4 Ram
+94.3 - {'Used': 103.664730112, 'Unused': 6.247469056} - Total Mem:8820 Used Mem:5434 Free Mem:583 - 61.61 Prozent in Benutzung.
+Alarm! Ein Schwellwert wurde überschritten.
+Alarm-Email wurde verschickt.
+DevMachine: 2019-11-21 13:35:52
+CPU: 50.79 - Es laufen [psutil.Process(pid=24652, name='sh', started='13:35:52')] Prozesse
+68.8 Ram
+94.3 - {'Used': 103.670915072, 'Unused': 6.241284096} - Total Mem:8820 Used Mem:5457 Free Mem:548 - 61.87 Prozent in Benutzung.
+Alarm! Ein Schwellwert wurde überschritten.
+Alarm-Email wurde verschickt.
+DevMachine: 2019-11-21 13:51:50
+CPU: 50.28 - Es laufen [psutil.Process(pid=25632, name='sh', started='13:51:50')] Prozesse
+70.8 Ram
+94.3 - {'Used': 103.69021952, 'Unused': 6.221979648} - Virtual Memory: 7 GB - Total Mem:8820 Used Mem:5574 Free Mem:355 - 63.20 Prozent in Benutzung.
+Alarm! Ein Schwellwert wurde überschritten.
+Alarm-Email wurde verschickt.
+DevMachine: 2019-11-21 13:52:43
+CPU: 50.25 - Es laufen [psutil.Process(pid=25719, name='sh', started='13:52:43')] Prozesse
+71.0 Ram
+94.3 - {'Used': 103.68520192, 'Unused': 6.226997248} - Virtual Memory: 7 GB - Total Mem:8820 Used Mem:5588 Free Mem:344 - 63.36 Prozent in Benutzung.
+Alarm! Ein Schwellwert wurde überschritten.
+Alarm-Email wurde verschickt.
+DevMachine: 2019-11-21 13:58:49
+CPU: 50.06 - Es laufen [psutil.Process(pid=26043, name='sh', started='13:58:49')] Prozesse
+71.5 Ram
+94.3 - {'Used': 103.689428992, 'Unused': 6.222770176} - Virtual Memory: 7 GB - Total Mem:8820 Used Mem:5589 Free Mem:297 - 63.37 Prozent in Benutzung.
+Alarm! Ein Schwellwert wurde überschritten.
 Alarm-Email wurde verschickt.

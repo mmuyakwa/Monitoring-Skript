@@ -118,3 +118,83 @@ CPU: 50.06 - Es laufen [psutil.Process(pid=26043, name='sh', started='13:58:49')
 94.3 - {'Used': 103.689428992, 'Unused': 6.222770176} - Virtual Memory: 7 GB - Total Mem:8820 Used Mem:5589 Free Mem:297 - 63.37 Prozent in Benutzung.
 Alarm! Ein Schwellwert wurde überschritten.
 Alarm-Email wurde verschickt.
+DevMachine: 2019-11-22 22:29:09
+CPU: 28.82 - Es laufen [psutil.Process(pid=26848, name='sh', started='22:29:08'), psutil.Process(pid=26851, name='sh', started='22:29:08')] Prozesse
+71.4 Ram
+93.9 - {'Used': 103.169859584, 'Unused': 6.742339584} - Virtual Memory: 7 GB - Total Mem:8820 Used Mem:4739 Free Mem:1497 - 53.73 Prozent in Benutzung.
+Alarm! Ein Schwellwert wurde überschritten.
+Alarm-Email wurde verschickt.
+DevMachine: 2019-11-22 22:29:25
+CPU: 28.81 - Es laufen [psutil.Process(pid=26918, name='sh', started='22:29:24')] Prozesse
+71.4 Ram
+93.9 - {'Used': 103.169773568, 'Unused': 6.7424256} - Virtual Memory: 7 GB - Total Mem:8820 Used Mem:4737 Free Mem:1501 - 53.71 Prozent in Benutzung.
+Alarm! Ein Schwellwert wurde überschritten.
+Alarm-Email wurde verschickt.
+DevMachine: 2019-11-22 22:32:42
+CPU: 28.76 - Es laufen [psutil.Process(pid=27150, name='sh', started='22:32:41')] Prozesse
+71.5 Ram
+93.9 - {'Used': 103.162138624, 'Unused': 6.750060544} - Virtual Memory: 7 GB - Total Mem:8820 Used Mem:4745 Free Mem:1494 - 53.80 Prozent in Benutzung.
+Alarm! Ein Schwellwert wurde überschritten.
+Alarm-Email wurde verschickt.
+DevMachine: 2019-11-22 22:33:40
+CPU: 28.78 - Es laufen [psutil.Process(pid=27243, name='sh', started='22:33:39')] Prozesse
+71.8 Ram
+93.9 - {'Used': 103.162425344, 'Unused': 6.749773824} - Virtual Memory: 7 GB - Total Mem:8820 Used Mem:4762 Free Mem:1476 - 53.99 Prozent in Benutzung.
+Alarm! Ein Schwellwert wurde überschritten.
+Alarm-Email wurde verschickt.
+################
+DevMachine: 2019-11-22 22:35:42
+CPU: 28.79 - Es laufen [psutil.Process(pid=27369, name='sh', started='22:35:41')] Prozesse
+71.8 Ram
+93.9 - {'Used': 103.163244544, 'Unused': 6.748954624} - Virtual Memory: 7 GB - Total Mem:8820 Used Mem:4768 Free Mem:1471 - 54.06 Prozent in Benutzung.
+Alarm! Ein Schwellwert wurde überschritten.
+Alarm-Email wurde verschickt.
+################
+DevMachine: 2019-11-22 22:38:08
+CPU: 28.82 - Es laufen [psutil.Process(pid=27544, name='sh', started='22:38:07')] Prozesse
+71.6 Ram
+93.9 - {'Used': 103.163932672, 'Unused': 6.748266496} - Virtual Memory: 7 GB - Total Mem:8820 Used Mem:4753 Free Mem:1483 - 53.89 Prozent in Benutzung.
+Alarm! Ein Schwellwert wurde überschritten.
+Alarm-Email wurde verschickt.
+################
+DevMachine: 2019-11-22 22:43:42
+CPU: 28.64 - Es laufen [psutil.Process(pid=27877, name='sh', started='22:43:41')] Prozesse
+71.3 Ram
+93.9 - {'Used': 103.162679296, 'Unused': 6.749519872} - Virtual Memory: 7 GB - Total Mem:8820 Used Mem:4725 Free Mem:1510 - 53.57 Prozent in Benutzung.
+Alarm! Ein Schwellwert wurde überschritten.
+Alarm-Email wurde verschickt.
+################
+DevMachine: 2019-11-22 22:44:38
+CPU: 28.64 - Es laufen [psutil.Process(pid=27952, name='sh', started='22:44:37'), psutil.Process(pid=27955, name='sh', started='22:44:37')] Prozesse
+72.1 Ram
+93.9 - {'Used': 103.162871808, 'Unused': 6.74932736} - Virtual Memory: 7 GB - Total Mem:8820 Used Mem:4770 Free Mem:1449 - 54.08 Prozent in Benutzung.
+Alarm! Ein Schwellwert wurde überschritten.
+Alarm-Email wurde verschickt.
+################
+DevMachine: 2019-11-22 23:05:57
+CPU: 28.22 - Es laufen [psutil.Process(pid=29721, name='sh', started='23:05:56')] Prozesse
+76.6 Ram
+93.9 - {'Used': 103.176855552, 'Unused': 6.735343616} - Virtual Memory: 7 GB - Total Mem:8820 Used Mem:5044 Free Mem:1119 - 57.19 Prozent in Benutzung.
+Alarm! Ein Schwellwert wurde überschritten.
+Alarm-Email wurde verschickt.
+################
+DevMachine: 2019-11-22 23:06:40
+CPU: 28.23 - Es laufen [psutil.Process(pid=29809, name='sh', started='23:06:39')] Prozesse
+76.5 Ram
+93.9 - {'Used': 103.177814016, 'Unused': 6.734385152} - Virtual Memory: 7 GB - Total Mem:8820 Used Mem:5042 Free Mem:1124 - 57.17 Prozent in Benutzung.
+Alarm! Ein Schwellwert wurde überschritten.
+Alarm-Email wurde verschickt.
+################
+DevMachine: 2019-11-22 23:14:40
+CPU: 27.98 - Es laufen [psutil.Process(pid=30334, name='sh', started='23:14:39'), psutil.Process(pid=30337, name='sh', started='23:14:39')] Prozesse
+75.1 Ram
+93.9 - {'Used': 103.177220096, 'Unused': 6.734979072} - Virtual Memory: 7 GB - Total Mem:8820 Used Mem:4947 Free Mem:1304 - 56.09 Prozent in Benutzung.
+Alarm! Ein Schwellwert wurde überschritten.
+Alarm-Email wurde verschickt.
+################
+DevMachine: 2019-11-22 23:20:01
+CPU: 27.76
+76.0 Ram
+93.9 - {'Used': 103.181717504, 'Unused': 6.730481664} - Virtual Memory: 7 GB - Total Mem:8820 Used Mem:5002 Free Mem:1174 - 56.71 Prozent in Benutzung.
+Alarm! Ein Schwellwert wurde überschritten.
+Alarm-Email wurde verschickt.

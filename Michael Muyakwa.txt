@@ -1,0 +1,18 @@
+Michael Muyakwa - IT8g
+
+Mein Skript zum Monitoring via Python ist in Github unter:
+
+https://github.com/mmuyakwa/Monitoring-Skript 
+
+einsehbar.
+
+Das Skript in seiner jetzigen Form funktioniert bsiher nur für Linux.
+
+Leider konnte ich keine Parameter ("args") anhand der Beispiele zum laufen bekommen.
+Tests in einer Datei verliefen ohne Erfolg.
+Ungeachtet ob mit "argparse" oder "sys.args".
+
+Der Emailversand via Googlemail hat bei mir funktioniert.
+
+Ich plane der README.md noch ein Video beizufügen, um die Funktion des Skript nachzuweisen.
+
